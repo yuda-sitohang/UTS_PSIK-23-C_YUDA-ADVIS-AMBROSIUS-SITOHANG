@@ -61,3 +61,36 @@ body {
 .navbar .navbar-nav a:hover::after {
   transform: scaleX(0.8);
 }
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 5em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 1px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+
+/* Mengatur warna teks dan latar belakang */
+p {
+  line-height: 1.5;
+  margin-bottom: 2px;
+  color: #333; /* Warna teks */
+  background-color: #f9f9f9; /* Warna latar belakang */
+  padding: 15px; /* Padding di dalam paragraf */
+  margin-bottom: 20px; /* Jarak antar paragraf */
+  line-height: 1.6; /* Tinggi baris untuk keterbacaan */
+  font-family: Arial, sans-serif; /* Jenis font */
+  border-radius: 5px; /* Sudut melengkung */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan */
+  text-align: justify;
+}
+ul,
+ol {
+  padding: 20px;
+  line-height: 3;
+  font-variant: initial;
+}
